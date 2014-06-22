@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Cornelia Schulz Photography</title>
+	<meta name="keywords" content="Cornelia Schulz, photography, portfolio, gallery, animals, landscapes, monochrome, black & white, landmarks, contact, about, new zealand, scotland, Vietnam, architecture, people">
+	<meta name="description" content="Welcome to my photography site!">
+	<meta name="author" content="Cornelia Schulz">
+	
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="superfish-master/dist/css/superfish.css" media="screen">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<link href="http://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet" type="text/css">
+
+		<!-- jQuery
+  ================================================== -->
+  <script src="superfish-master/dist/js/jquery.js"></script>
+	<script src="superfish-master/dist/js/hoverIntent.js"></script>
+	<script src="superfish-master/dist/js/superfish.js"></script>
+		<script>
+
+		(function($){ //create closure so we can safely use $ as alias for jQuery
+
+			$(document).ready(function(){
+
+				// initialise plugin
+				var example = $('#example').superfish({
+					//add options here if required
+				});
+
+				// buttons to demonstrate Superfish's public methods
+				$('.destroy').on('click', function(){
+					example.superfish('destroy');
+				});
+
+				$('.init').on('click', function(){
+					example.superfish();
+				});
+
+				$('.open').on('click', function(){
+					example.children('li:first').superfish('show');
+				});
+
+				$('.close').on('click', function(){
+					example.children('li:first').superfish('hide');
+				});
+			});
+
+		})(jQuery);
+		</script>
+		
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+	<div class="header">
+		<div class="logo">
+			<img id="logoimg" src="/images/logo.png" alt="Logo"><span class="white logo1">Cornelia Schulz</span><span class="logo2"> Photography</span>
+		</div>
+		<div class="followus">
+			<p>Follow me on <a class="white" href="http://twitter.com/Schulz_Images" target="_blank">Twitter</a>, <a class="white" href="http://www.facebook.com/pages/Cornelia-Schulz-Photography" target="_blank">Facebook</a> and <a class="white" href="https://www.flickr.com/photos/cornelia-schulz/" target="_blank">Flickr</a></p>
+		</div>
+		<div class="menu">
+			<ul class="sf-menu" id="example">
+			<li class="current white">
+				<a href="index.html">HOME</a>
+			</li>
+			<li>
+				<a href="about.html">ABOUT</a>
+			</li>
+			<li>
+				<a href="feedback.html">CONTACT</a>
+			</li>
+			<li>
+				<a href="gallery.html">GALLERY</a>
+					<ul>
+					<li>
+						<a href="/images/Animals/animals.html">Animals</a>
+					</li>
+					<li>
+						<a href="/images/Birds/birds.html">Birds</a>
+					</li>
+					<li>
+						<a href="misc.html">Miscellaneous</a>
+						<ul>
+							<li><a href="/images/Architecture/architecture.html">Architecture</a></li>
+							<li><a href="/images/People/people.html">People</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="landscapes.html">Landscapes</a>
+						<ul>
+							<li><a href="/images/Landscapes-New-Zealand/newzealand.html">New Zealand</a></li>
+							<li><a href="/images/Landscapes-Scotland/scotland.html">Scotland</a></li>
+							<li><a href="/images/Landscapes-Vietnam/vietnam.html">Vietnam</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="/images/Monochrome/monochrome.html">Monochrome</a>
+					</li>
+					<li>
+						<a href="/images/Flora/flora.html">Flora</a>
+					</li>
+				</ul>
+			</li>	
+			<li>
+				<a href="http://cornelia-schulz.blogspot.com/" target="_blank">BLOG</a>
+			</li>
+			<li>
+				<a href="http://www.redbubble.com/people/firzhugh" target="_blank">SHOP</a>
+			</li>
+		</ul>
+		</div>
+	</div>
+		
+	<div class="containsall">
+		<div id="sliderContainer" class="slider">
+			<img id="sliderImage" src="/images/slider-img1.jpg" alt="South Island">
+		</div>
+			<img id="previousImage" src="/images/slider-prev.png">
+			<img id="nextImage" src="/images/slider-next.png">
+			<h1 id="whiteimgtxt">A world of photos</h1>
+	</div>
+	<script type="text/javascript" src="/js/slider.js"></script>
+
+	
+	<div class="container">
+		<div class="one-third column">
+			<h3 class="white">WELCOME!</h3>
+			<p><img class="roundedcorners" src="/images/page1-img1.jpg" alt="St David's Memorial Church in Cave, New Zealand"></p>
+			<p class="white">Welcome and thank you for visiting my photography site.</p>
+			<p>Here you can find some of the photographs I have taken during my travels thus far.</p>
+			<p>Within the <a href="gallery.html">Photo Gallery</a> you will find a selection of my favourite photographs which I have categorised to help you navigate your way along. I sincerely hope they take you on a journey and give you enjoyment along the way.</p>
+			<p>If you would like any further information about any of the photos, please feel free to get in touch via the <a href="feedback.html">contact</a> page.</p>
+			<p class="white">Best wishes,<br/>Cornelia</p>
+		</div>
+		<div class="one-third column">
+			<h3 class="white">MY GALLERIES</h3>
+			<p></p>
+			<ul class="arrow">
+				<li class="arrowlist"><a href="/images/Animals/animals.html">Animals</a></li>
+				<li class="arrowlist"><a href="/images/Birds/birds.html">Birds</a></li>
+				<li class="arrowlist"><a href="landscapes.html">Landscapes</a></li>
+                <!--<li class="indentedarrowlist"><a href="/images/Landscapes-New-Zealand/newzealand.html">New Zealand</a></li>
+                <li class="indentedarrowlist"><a href="/images/Landscapes-Scotland/scotland.html">Scotland</a></li>
+                <li class="indentedarrowlist"><a href="/images/Landscapes-Vietnam/vietnam.html">Vietnam</a></li>-->
+				<li class="arrowlist"><a href="/images/Monochrome/monochrome.html">Monochrome</a></li>
+				<li class="arrowlist"><a href="/images/Flora/flora.html">Flora</a></li>
+				<li class="arrowlist"><a href="misc.html">Miscellaneous</a></li>
+                <!--<li class="indentedarrowlist"><a href="/images/Architecture/architecture.html">Architecture</a></li>
+				<li class="indentedlastarrowlist"><a href="/images/People/people.html">People</a></li>-->
+			</ul>
+		</div>
+		<div class="one-third column">
+			<p><a href="gallery.html"><img class="roundedcorners" src="/images/banner-3.jpg" alt="Gallery"></a></p>
+			<img class="banner roundedcorners" src="/images/banner-4.jpg" alt="Lake Alexandrina">
+			<div class="redbubble">
+                   <script type="text/javascript" src="http://www.redbubble.com/assets/external_portfolio.js"></script>
+                   <script id="rb-xzfcxvzx" type="text/javascript">new RBExternalPortfolio('www.redbubble.com', 'firzhugh', 1, 1).renderIframe();</script>
+            </div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="footermenu white">
+			<table>
+				<tr>
+					<td id="columnone"><a href="index.html">HOME</a></td>
+					<td><a href="about.html">ABOUT</a></td>
+					<td><a href="feedback.html">CONTACT</a></td>
+					<td><a href="gallery.html">GALLERY</a></td>
+					<td><a href="http://cornelia-schulz.blogspot.com/" target="_blank">BLOG</a></td>
+					<td><a href="http://www.redbubble.com/people/firzhugh" target="_blank">SHOP</a></td>
+				</tr>
+			</table>
+		</div>
+		<div class="credits">
+			<table>
+				<tr>
+					<td>Cornelia Schulz Photography &copy 2014</td>
+					
+				</tr>
+			</table>
+		</div>
+	</div>
+
+</body>
+</html>
